@@ -19,3 +19,4 @@ function HelloMessage(props) {
     return <h1>Hello World!</h1>;
 }
 ```
+同样也可以使用ES
