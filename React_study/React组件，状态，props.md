@@ -19,4 +19,7 @@ function HelloMessage(props) {
     return <h1>Hello World!</h1>;
 }
 ```
-同样也可以使用ES
+同样也可以使用ES6的class来定义一个组件
+```js
+class Wwlcome 
+```
