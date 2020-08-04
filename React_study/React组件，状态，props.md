@@ -29,4 +29,4 @@ class Wwlcome extends React.Component{
 ```
 需要注意的是自定义的React类名必须以大写字母开头，且组件类只能包含一个顶层标签，否则也会报错。
 ## 向组件传递参数
-在react中向组件传递参数，
+在react中向组件传递参数，可以使用this.props
