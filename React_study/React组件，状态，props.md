@@ -6,7 +6,7 @@ function HelloMessage(props) {
     return <h1>Hello World!</h1>;
 }
  
-const element = <HelloMessage />;
+const element = <HelloMessage />;//
  
 ReactDOM.render(
     element,
