@@ -134,7 +134,7 @@ ReactDOM.render(
 //引入外部js文件来完成元素显示。
 ```
 ## JavaScript表达式
-在jsx中可以使用JavaScript表达式，但是要求表达式必须要
+在jsx中可以使用JavaScript表达式，但是要求表达式必须要在花括号中{}完成。
 
 
  
