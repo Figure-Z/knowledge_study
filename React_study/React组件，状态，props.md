@@ -15,5 +15,7 @@ ReactDOM.render(
 ```
 可以看出我们可以通过函数的方法来定义组件。
 ```js
-
+function HelloMessage(props) {
+    return <h1>Hello World!</h1>;
+}
 ```
