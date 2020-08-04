@@ -27,4 +27,4 @@ class Wwlcome extends React.Component{
     }
 }
 ```
-需要注意的是自定义的React类名必须以大写字母
+需要注意的是自定义的React类名必须以大写字母开头，
