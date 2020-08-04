@@ -32,10 +32,10 @@ class Wwlcome extends React.Component{
 在react中向组件传递参数，可以使用this.props对象。
 ```js
 function HelloMessage(props) {
-    return <h1>Hello {props.name}!</h1>;//通过对象
+    return <h1>Hello {props.name}!</h1>;//通过对象来获取参数
 }
  
-const element = <HelloMessage name="Runoob"/>;
+const element = <HelloMessage name="Runoob"/>;//在自定义
  
 ReactDOM.render(
     element,
