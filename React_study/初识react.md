@@ -168,6 +168,16 @@ ReactDOM.render(
 ```
 ## 注释
 React中的注释需要写在花括号中
+```js
+ReactDOM.render(
+    <div>
+    <h1>菜鸟教程</h1>
+    {/*注释...*/}
+     </div>,
+    document.getElementById('example')
+);
+```
+
 
 
  
