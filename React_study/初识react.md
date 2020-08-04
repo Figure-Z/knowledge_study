@@ -136,7 +136,13 @@ ReactDOM.render(
 ## JavaScript表达式
 在jsx中可以使用JavaScript表达式，但是要求表达式必须要在花括号中{}完成。
 ```js
-
+ReactDOM.render(
+    <div>
+      <h1>{1+1}</h1>
+    </div>
+    ,
+    document.getElementById('example')
+);
 ```
 
 
