@@ -35,10 +35,9 @@ function HelloMessage(props) {
     return <h1>Hello {props.name}!</h1>;//通过对象来获取参数
 }
  
-const element = <HelloMessage name="Runoob"/>;//在自定义
+const element = <HelloMessage name="Runoob"/>;//在自定义组件中对props.name进行赋值。
  
 ReactDOM.render(
     element,
     document.getElementById('example')
 );
-```
