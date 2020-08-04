@@ -42,4 +42,4 @@ ReactDOM.render(
     document.getElementById('example')
 );
 ```
-需要注意的是，在添加属性是class要写成className，for属性需要写成htmlFor
+需要注意的是，在添加属性是class要写成className，for属性需要写成htmlFor。
