@@ -22,6 +22,8 @@ function HelloMessage(props) {
 同样也可以使用ES6的class来定义一个组件
 ```js
 class Wwlcome extends React.Component{
-	
+    render(){
+	return
+    }
 }
 ```
