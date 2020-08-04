@@ -138,7 +138,7 @@ ReactDOM.render(
 ```js
 ReactDOM.render(
     <div>
-      <h1>{1+1}</h1>
+      <h1>{1+1}</h1> //网页显示结果为2
     </div>
     ,
     document.getElementById('example')
