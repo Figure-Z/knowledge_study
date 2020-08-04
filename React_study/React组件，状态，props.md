@@ -23,7 +23,7 @@ function HelloMessage(props) {
 ```js
 class Wwlcome extends React.Component{
     render(){
-	return
+	return <h1>Hello World!</h1>;
     }
 }
 ```
