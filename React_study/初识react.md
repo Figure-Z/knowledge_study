@@ -155,7 +155,7 @@ ReactDOM.render(
 );
 ```
 ## 样式
-React推荐使用
+React推荐使用内敛样式来对元素进行改变，它会在
 ```js
 
 ```
