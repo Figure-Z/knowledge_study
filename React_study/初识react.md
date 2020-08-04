@@ -145,6 +145,16 @@ ReactDOM.render(
 );
 ```
 在jsx中无法使用if else语句但可以用conditional（三元运算）来代替。
+```js
+ReactDOM.render(
+    <div>
+      <h1>{i == 1 ? 'True!' : 'False'}</h1>
+    </div>
+    ,
+    document.getElementById('example')
+);
+```
+
 
 
  
