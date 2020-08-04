@@ -167,7 +167,7 @@ ReactDOM.render(
 );
 ```
 ## 注释
-React
+React中的注释需要写在花括号中
 
 
  
