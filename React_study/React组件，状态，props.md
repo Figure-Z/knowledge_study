@@ -41,4 +41,4 @@ ReactDOM.render(
     element,
     document.getElementById('example')
 );
-需要注意的是，在添加属性是class要写为className，属性
+需要注意的是，在添加属性是class要写为className，属性for写为htmlFor
