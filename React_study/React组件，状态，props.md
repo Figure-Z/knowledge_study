@@ -13,3 +13,7 @@ ReactDOM.render(
     document.getElementById('example')
 );
 ```
+可以看出我们可以通过函数的方法来定义组件。
+```js
+
+```
