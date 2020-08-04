@@ -180,7 +180,14 @@ ReactDOM.render(
 ## 数组
 jsx中允许插入数组，但是会对数组进行自动的展开。
 ```js
-
+var arr = [
+  <h1>菜鸟教程</h1>,
+  <h2>学的不仅是技术，更是梦想！</h2>,
+];
+ReactDOM.render(
+  <div>{arr}</div>,
+  document.getElementById('example')
+);
 ```
 
 
