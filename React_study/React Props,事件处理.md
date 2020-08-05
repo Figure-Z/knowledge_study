@@ -91,8 +91,11 @@ React中的绑定事件写法：
 
 在React中另一个不同是，不能视同返回false的方式阻止默认行为，你不许明确使用preventDefault。
 
+通常我们在 HTML 中阻止链接默认打开一个新页面
 ```html
-
+<a href="#" onclick="console.log('点击链接'); return false">
+  点我
+</a>
 ```
 
 
