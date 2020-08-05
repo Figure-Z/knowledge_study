@@ -98,6 +98,21 @@ React中的绑定事件写法：
 </a>
 ```
 
+React中的写法：
+```html
+function ActionLink() {
+  function handleClick(e) {
+    e.preventDefault();
+    console.log('链接被点击');
+  }
+ 
+  return (
+    <a href="#" onClick={handleClick}>
+      点我
+    </a>
+  );
+}
+```
 
 
 
