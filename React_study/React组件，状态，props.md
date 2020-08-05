@@ -46,6 +46,28 @@ ReactDOM.render(
 ## 复合组件
 在react中可以通过创建多个组件来合成一个组件。即吧组件的不同功能点分离开。
 ```js
-
+function Name(props) {
+    return <h1>网站名称：{props.name}</h1>;
+}
+function Url(props) {
+    return <h1>网站地址：{props.url}</h1>;
+}
+function Nickname(props) {
+    return <h1>网站小名：{props.nickname}</h1>;
+}
+function App() {
+    return (
+    <div>
+        <Name name="百度" />
+        <Url url="http://www.baidu.com" />
+        <Nickname nickname="Baidu" />
+    </div>
+    );
+}
+ 
+ReactDOM.render(
+     <App />,
+    document.getElementById('example')
+);
 ```
 
