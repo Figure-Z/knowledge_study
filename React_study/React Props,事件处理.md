@@ -88,7 +88,8 @@ React中的绑定事件写法：
   激活按钮
 </button>
 ```
-在React中另一个不同是，不能视同返回false的方式阻止默认行为，你不许
+
+在React中另一个不同是，不能视同返回false的方式阻止默认行为，你不许明确使用preventDefault
 
 
 
