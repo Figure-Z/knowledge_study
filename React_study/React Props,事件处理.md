@@ -99,7 +99,7 @@ React中的绑定事件写法：
 ```
 
 React中的写法：
-```html
+```js
 function ActionLink() {
   function handleClick(e) {
     e.preventDefault();
