@@ -71,4 +71,4 @@ ReactDOM.render(
 );
 ```
 ## React State(状态)
-React把组件看成是
+React把组件看成是一个状态机，通过与
